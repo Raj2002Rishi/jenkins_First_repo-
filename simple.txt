@@ -1,0 +1,5 @@
+echo "echo Hello from Jenkins" > build.sh
+chmod +x build.sh
+git add build.sh
+git commit -m "Initial commit"
+git push origin main
